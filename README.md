@@ -25,19 +25,19 @@ Given that the folding process was performed numerous times for a given potentia
 
 ### Model: `featherless-ai/Qwen3.8-27B-classifier`
 
-For the Adaptv binding class, the zero-shot classification approach using the Simple Jev API demonstrates high precision in the non_binder class and high recall in the binder class. Vice versa, precision is low in the binder class while recall is low in the non_binder class. Though the AUC score is relatively high, the overall accuracy remains relatively low.
+For the **Adaptv binding** class, the zero-shot classification approach using the Simple Jev API demonstrates high precision in the non_binder class and high recall in the binder class. Vice versa, precision is low in the binder class while recall is low in the non_binder class. Though the AUC score is relatively high, the overall accuracy remains relatively low.
 
 - Total Scored: 1082
-- Accuracy: 0.413
-- ROC-AUC:  0.678
+- Accuracy: 0.409
+- ROC-AUC:  0.683
 
 | **adaptyv_binder** | **precision** | **recall** | **f1-score** | **support** |
 |:------------------:|:-------------:|:----------:|:------------:|:-----------:|
-| non_binder         | 0.93          | 0.21       | 0.34         | 788         |
-| binder             | 0.31          | 0.94       | 0.47         | 294         |
+| non_binder         | 0.93          | 0.20       | 0.33         | 788         |
+| binder             | 0.31          | 0.96       | 0.47         | 294         |
 
 
-For the Twist binding class, the zero-shot classification approach using the Simple Jev API demonstrates lower performance compared to the Adaptv binding class, still with high precision in the non_binder class and high recall in the binder class, but low precision in the binder class and low recall in the non_binder class.
+For the **Twist binding** class, the zero-shot classification approach using the Simple Jev API demonstrates lower performance compared to the Adaptv binding class, still with high precision in the non_binder class and high recall in the binder class, but low precision in the binder class and low recall in the non_binder class.
 
 - Total Scored: 1087
 - Accuracy: 0.381
