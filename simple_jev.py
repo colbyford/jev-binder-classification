@@ -18,7 +18,9 @@ DEMO_API_URL = "https://simple-jev-demo-api.featherless.ai/v1/classifier"
 DEMO_MODELS_URL = "https://simple-jev-demo-api.featherless.ai/v1/models"
 # PROD_API_URL = "https://api.featherless.ai/v1/classifier"
 # DEFAULT_DEMO_MODEL = "featherless-ai/gemma-4-26B-A4B-classifier"
-DEFAULT_DEMO_MODEL = "featherless-ai/Qwen3.8-27B-classifier"
+# DEFAULT_DEMO_MODEL = "featherless-ai/Qwen3.8-27B-classifier"
+DEFAULT_DEMO_MODEL = "featherless-ai/Qwen3.6-35B-A3B-classifier"
+
  
 DEMO_RATE_LIMIT_RPS = 4
 TARGET_SEQ_CHAR_BUDGET = 300

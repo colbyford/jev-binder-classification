@@ -47,3 +47,28 @@ For the **Twist binding** class, the zero-shot classification approach using the
 |:------------------:|:-------------:|:----------:|:------------:|:-----------:|
 | non_binder         | 0.94          | 0.18       | 0.30         | 813         |
 | binder             | 0.29          | 0.96       | 0.45         | 284         |
+
+### Model: `featherless-ai/Qwen3.6-35B-A3B-classifier`
+
+For the **Adaptv binding** class, the zero-shot classification approach using the Simple Jev API demonstrates high precision in the non_binder class and high recall in the binder class. Vice versa, precision is low in the binder class while recall is low in the non_binder class. Though the AUC score is relatively high, the overall accuracy remains relatively low.
+
+- Total Scored: 1082
+- Accuracy: 0.381
+- ROC-AUC:  0.684
+
+| **adaptyv_binder** | **precision** | **recall** | **f1-score** | **support** |
+|:------------------:|:-------------:|:----------:|:------------:|:-----------:|
+| non_binder         | 0.93          | 0.16       | 0.28         | 788         |
+| binder             | 0.30          | 0.97       | 0.46         | 294         |
+
+
+For the **Twist binding** class, the zero-shot classification approach using the Simple Jev API demonstrates lower performance compared to the Adaptv binding class, still with high precision in the non_binder class and high recall in the binder class, but low precision in the binder class and low recall in the non_binder class.
+
+- Total Scored: 1097
+- Accuracy: 0.350
+- ROC-AUC:  0.648
+
+|  **twist_binder**  | **precision** | **recall** | **f1-score** | **support** |
+|:------------------:|:-------------:|:----------:|:------------:|:-----------:|
+| non_binder         | 0.93          | 0.13       | 0.23         | 813         |
+| binder             | 0.28          | 0.97       | 0.44         | 284         |
