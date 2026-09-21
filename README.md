@@ -4,6 +4,8 @@
 
 Using the Simple Jev API, this project evaluates the use of zero-shot classification of protein binders. This is to investigate the ability of Jev-based approaches to predict binder likelihoods with only predicted folding metrics.
 
+Accompanying blog post: https://blog.colbyford.com/zero-shot-classification-of-protein-binders-with-jev-634b0300e58d
+
 ## Input Data
 
 Using the `design_summary` and `insilico_cofold_predictions` tables from the [Anthropic/claude-protein-binder-design](https://huggingface.co/datasets/Anthropic/claude-protein-binder-design) dataset on Hugging Face as input data, this project evaluates the zero-shot classification of protein binders.
